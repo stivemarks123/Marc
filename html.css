@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igreja Exemplo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #34869b;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            margin: 0 10px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #4c8baf;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                display: block;
+            }
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1> Comunidade cristân Agape </h1>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#eventos">Eventos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Bem-vindo à Igreja Exemplo! Nossa missão é espalhar amor e esperança em nossa comunidade.</p>
+</section>
+
+<section id="eventos">
+    <h2>Próximos Eventos</h2>
+    <ul>
+        <li>orário que abrimos  - sexta feira has 19hrs,sábado as 10 hrs 
+        e domingo as 8hrs </li>
+        <li>Culto de Louvor - 12 de Novembro, 10h</li>
+        <li>Estudo Bíblico - 14 de Novembro, 19h</li>
+    </ul>
+</section>
+
+<section id="contato">
+    <h2>45998473446</h2>
+    <p>Email: 45998473446</p>
+    <p>Telefone: (11) 1234-5678</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Igreja Exemplo. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
